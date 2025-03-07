@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tt.org"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-07 08:24:51 SA"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDItMjg7MDg6NDY6MDUgU0E7MjUxNg=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDItMjg7MDg6NDc6NTEgU0E7MTtIUDtERVNLVE9QLUNBTk4zUlE7MjAyNS0wMi0yODswODoyMjowMSBTQTs1MTkx"/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDMtMDc7MDg6MjQ6NTEgU0E7MzsyNjIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input the radius of the circle&quot;" newline="True"/>
+            <input variable="x"/>
+            <comment text="The following call the Circle function using the value the user entered.                                                                notice that this variable is called 'x' While the function uses'Radius'. The value of 'x' is passed to the function"/>
+            <output expression="&quot;Area is&quot;&amp;Circle(x)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
